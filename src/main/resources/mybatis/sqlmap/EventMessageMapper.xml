@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yyz.demo.dal.mapper.EventMessageMapper">
+    <insert id="insert" parameterType="com.yyz.demo.dal.model.EventMessageDO" useGeneratedKeys="true" keyProperty="id">
+        insert into event_message (
+        gmt_create,
+        gmt_modified,
+        biz_id,
+
+        )
+    </insert>
+
+    <select id="getById" parameterType="long" resultType="com.yyz.demo.dal.model.EventMessageDO">
+
+    </select>
+
+    <update id="update" parameterType="com.yyz.demo.dal.model.EventMessageDO">
+
+    </update>
+</mapper>
